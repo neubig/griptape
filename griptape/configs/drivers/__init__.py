@@ -7,6 +7,7 @@ from .amazon_bedrock_drivers_config import AmazonBedrockDriversConfig
 from .anthropic_drivers_config import AnthropicDriversConfig
 from .google_drivers_config import GoogleDriversConfig
 from .cohere_drivers_config import CohereDriversConfig
+from .griptape_cloud_drivers_config import GriptapeCloudDriversConfig
 
 __all__ = [
     "AmazonBedrockDriversConfig",
@@ -16,5 +17,6 @@ __all__ = [
     "CohereDriversConfig",
     "DriversConfig",
     "GoogleDriversConfig",
+    "GriptapeCloudDriversConfig",
     "OpenAiDriversConfig",
 ]

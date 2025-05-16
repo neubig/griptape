@@ -87,6 +87,14 @@ The [Cohere Driver config](../../reference/griptape/configs/drivers/cohere_drive
 --8<-- "docs/griptape-framework/structures/src/drivers_config_6.py"
 ```
 
+#### Griptape Cloud
+
+The [Griptape Cloud Driver config](../../reference/griptape/configs/drivers/griptape_cloud_drivers_config.md) provides default Drivers for Griptape Cloud's APIs.
+
+```python
+--8<-- "docs/griptape-framework/structures/src/drivers_config_griptape_cloud.py"
+```
+
 #### Custom
 
 You can create your own [DriversConfig](../../reference/griptape/configs/drivers/drivers_config.md) by overriding relevant Drivers.
